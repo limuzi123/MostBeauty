@@ -1,5 +1,6 @@
-package com.lanou3g.mostbeauty.fragment.pictorialfragment;
+package com.lanou3g.mostbeauty.fragment;
 
+import com.lanou3g.mostbeauty.R;
 import com.lanou3g.mostbeauty.base.BaseFragment;
 
 /**
@@ -8,7 +9,7 @@ import com.lanou3g.mostbeauty.base.BaseFragment;
 public class PictorialFragment extends BaseFragment{
     @Override
     protected int initLayout() {
-        return 0;
+        return R.layout.fragment_pictorial;
     }
 
     @Override
