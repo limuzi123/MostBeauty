@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.lanou3g.mostbeauty">
-<<<<<<< HEAD
+
 <uses-permission android:name="android.permission.INTERNET"/>
-=======
-    <uses-permission android:name="android.permission.INTERNET"/>
->>>>>>> a52b2bf2249d8867b2d7fc451b54b40e5713d823
+
+
 
     <application
         android:allowBackup="true"
