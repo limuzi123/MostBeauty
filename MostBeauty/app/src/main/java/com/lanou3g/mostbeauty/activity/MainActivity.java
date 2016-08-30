@@ -1,10 +1,12 @@
 package com.lanou3g.mostbeauty.activity;
 
+import android.support.v7.app.AppCompatActivity;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 
 import com.lanou3g.mostbeauty.R;
+
 import com.lanou3g.mostbeauty.base.BaseActivity;
 import com.lanou3g.mostbeauty.fragment.HaveThingsFragment;
 import com.lanou3g.mostbeauty.fragment.MyFragment;
@@ -17,7 +19,9 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
     private RadioButton button;
 
 
-    @Override
+
+
+
     protected int getLayout() {
         return R.layout.activity_main;
     }
@@ -33,31 +37,29 @@ public class MainActivity extends BaseActivity implements OnCheckedChangeListene
     @Override
     protected void initData() {
         pictorial = new PictorialFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.container,pictorial).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, pictorial).commit();
         button.setChecked(true);
 
     }
-
-
-    @Override
-    public void onCheckedChanged(RadioGroup group, int checkedId) {
-        switch (checkedId){
-            case R.id.pictal_radio:
-               pictorial = new PictorialFragment();
-               getSupportFragmentManager().beginTransaction().replace(R.id.container, pictorial).commit();
-                break;
-            case R.id.havething_radio:
-                HaveThingsFragment haveThings = new HaveThingsFragment();
-                getSupportFragmentManager().beginTransaction().replace(R.id.container,haveThings).commit();
-                break;
-            case R.id.stailst_radio:
-                StylistFragment stylist = new StylistFragment();
-                getSupportFragmentManager().beginTransaction().replace(R.id.container,stylist).commit();
-                break;
-            case R.id.my_radio:
-                MyFragment my = new MyFragment();
-                getSupportFragmentManager().beginTransaction().replace(R.id.container,my).commit();
-                break;
+        @Override
+        public void onCheckedChanged (RadioGroup group,int checkedId){
+            switch (checkedId) {
+                case R.id.pictal_radio:
+                    pictorial = new PictorialFragment();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container, pictorial).commit();
+                    break;
+                case R.id.havething_radio:
+                    HaveThingsFragment haveThings = new HaveThingsFragment();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container, haveThings).commit();
+                    break;
+                case R.id.stailst_radio:
+                    StylistFragment stylist = new StylistFragment();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container, stylist).commit();
+                    break;
+                case R.id.my_radio:
+                    MyFragment my = new MyFragment();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container, my).commit();
+                    break;
+            }
         }
     }
-}
