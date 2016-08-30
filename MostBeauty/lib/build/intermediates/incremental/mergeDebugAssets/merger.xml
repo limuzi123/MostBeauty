@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/src/main/assets"/></dataSet><dataSet config="debug"><source path="/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/src/debug/assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="/Users/dllo/Desktop/WenLin/GitHubDemo/MostBeauty/MostBeauty/lib/src/main/assets"/></dataSet><dataSet config="debug"><source path="/Users/dllo/Desktop/WenLin/GitHubDemo/MostBeauty/MostBeauty/lib/src/debug/assets"/></dataSet></merger>
+>>>>>>> 840c74414345214e83d8f06b4619c2bff9853684
