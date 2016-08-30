@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/res/merged/androidTest/debug/anim/recents_to_search_launcher_exit.xml",
+        "source": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/bundles/debug/res/anim/recents_to_search_launcher_exit.xml"
+    },
+    {
+        "merged": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/res/merged/androidTest/debug/anim/recents_to_launcher_enter.xml",
+        "source": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/bundles/debug/res/anim/recents_to_launcher_enter.xml"
+    },
+    {
+        "merged": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/res/merged/androidTest/debug/anim/recents_return_to_launcher_exit.xml",
+        "source": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/bundles/debug/res/anim/recents_return_to_launcher_exit.xml"
+    },
+    {
+        "merged": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/res/merged/androidTest/debug/anim/recents_launch_prev_affiliated_task_target.xml",
+        "source": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/bundles/debug/res/anim/recents_launch_prev_affiliated_task_target.xml"
+    },
+    {
+        "merged": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/res/merged/androidTest/debug/anim/recents_to_search_launcher_enter.xml",
+        "source": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/bundles/debug/res/anim/recents_to_search_launcher_enter.xml"
+    },
+    {
+        "merged": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/res/merged/androidTest/debug/anim/recents_to_launcher_exit.xml",
+        "source": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/bundles/debug/res/anim/recents_to_launcher_exit.xml"
+    },
+    {
+        "merged": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/res/merged/androidTest/debug/anim/recents_return_to_launcher_enter.xml",
+        "source": "/Users/dllo/Desktop/gitHup/MostBeauty/MostBeauty/lib/build/intermediates/bundles/debug/res/anim/recents_return_to_launcher_enter.xml"
+    }
+]
