@@ -1,9 +1,10 @@
 package com.lanou3g.mostbeauty.base;
 
-import android.app.Fragment;
+
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +12,7 @@ import android.view.ViewGroup;
 /**
  * Created by dllo on 16/8/30.
  */
-public abstract class BaseFragment extends Fragment{
+public abstract class BaseFragment extends Fragment {
     private Context context;
 
     @Override
@@ -29,7 +30,7 @@ public abstract class BaseFragment extends Fragment{
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        initView();
+        initView(view);
     }
 
     @Override
@@ -38,6 +39,6 @@ public abstract class BaseFragment extends Fragment{
         initData();
     }
     protected abstract int initLayout();
-    protected abstract void initView();
+    protected abstract void initView(View view);
     protected abstract void initData();
 }

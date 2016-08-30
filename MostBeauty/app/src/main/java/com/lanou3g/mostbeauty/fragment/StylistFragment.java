@@ -1,5 +1,7 @@
 package com.lanou3g.mostbeauty.fragment;
 
+import android.view.View;
+
 import com.lanou3g.mostbeauty.R;
 import com.lanou3g.mostbeauty.base.BaseFragment;
 
@@ -15,7 +17,7 @@ public class StylistFragment extends BaseFragment{
     }
 
     @Override
-    protected void initView() {
+    protected void initView(View view) {
 
     }
 
