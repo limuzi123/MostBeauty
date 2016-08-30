@@ -23,6 +23,7 @@ public class HaveThingsFragment extends BaseFragment {
     }
     protected void initView() {
         tabLayout= (TabLayout) getView().findViewById(R.id.haveThings_tl);
+        tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
         viewPager= (ViewPager) getView().findViewById(R.id.haveThings_vp);
         adapter=new HaveThingsAdapter(getChildFragmentManager());
     }
