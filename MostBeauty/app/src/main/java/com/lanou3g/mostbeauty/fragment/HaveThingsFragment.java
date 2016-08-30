@@ -2,7 +2,7 @@ package com.lanou3g.mostbeauty.fragment;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
-import android.view.View;
+
 import com.lanou3g.mostbeauty.R;
 import com.lanou3g.mostbeauty.base.BaseFragment;
 
