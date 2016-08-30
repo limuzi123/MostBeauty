@@ -33,7 +33,8 @@
             android:layout_height="@dimen/forty"
             android:layout_alignParentRight="true"
             android:layout_marginTop="@dimen/fifteen"
-            android:background="@mipmap/ic_launcher" />
+            android:background="@mipmap/best_beauty"
+            android:layout_marginRight="@dimen/ten"/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -67,7 +68,7 @@
             android:layout_marginRight="@dimen/twenty"
             android:layout_marginTop="@dimen/twenty"
             android:background="@null"
-            android:text="芦苇微微"
+            android:hint="@string/material_nickname"
             android:textColor="@color/color_text_color" />
 
         <ImageView
