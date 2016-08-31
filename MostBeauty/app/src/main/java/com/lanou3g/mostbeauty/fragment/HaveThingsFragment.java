@@ -45,6 +45,6 @@ public class HaveThingsFragment extends BaseFragment {
                     }
                 });
 
-
+//nimei
     }
 }
