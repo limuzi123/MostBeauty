@@ -50,7 +50,11 @@ public class HaveThingsHaveItemAdapter extends BaseAdapter {
             convertView= LayoutInflater.from(context).inflate(R.layout.adapter_have_things_have_item,parent,false);
             holder=new ViewHolder(convertView);
             convertView.setTag(holder);
-        }holder= (ViewHolder) convertView.getTag();
+        }
+        else {
+
+            holder= (ViewHolder) convertView.getTag();
+        }
         //holder.productName.setText(bean.getData().getActivities().get(position).getProduct().getName());
         String str  = bean.getData().getActivities().get(position).getDigest();
 
@@ -74,6 +78,6 @@ public class HaveThingsHaveItemAdapter extends BaseAdapter {
         }
     }
     public void initGlide(ImageView imageView,String url){
-        Glide.with(context).load(url).priority(Priority.HIGH).thumbnail(0.5f).into(imageView);
+        Glide.with(context).load(url).priority(Priority.HIGH).thumbnail(0.1f).into(imageView);
     }
 }
