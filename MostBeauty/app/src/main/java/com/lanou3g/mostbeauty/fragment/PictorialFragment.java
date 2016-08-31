@@ -53,7 +53,7 @@ public class PictorialFragment extends BaseFragment implements Overview.RecentsV
 
         // Private API calls to make the shadows look better
         try {
-            Utilities.setShadowProperty("ambientRatio", String.valueOf(1.5f));
+            Utilities.setShadowProperty("ambientRatio", String.valueOf(0.5));
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
