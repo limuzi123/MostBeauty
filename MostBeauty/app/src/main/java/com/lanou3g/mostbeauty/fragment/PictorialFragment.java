@@ -78,9 +78,7 @@ public class PictorialFragment extends BaseFragment implements Overview.RecentsV
                 adapter.setBean(response);
                 mRecentsView.setTaskStack(adapter);
                 for(int i = 0; i < response.getData().getArticles().size(); ++i){
-//                            Random random = new Random();
-//                            random.setSeed(i);
-//                            int color = Color.argb(255, random.nextInt(255), random.nextInt(255), random.nextInt(255));
+
                     models.add(response.getData().getArticles().size());
                 }
             }
