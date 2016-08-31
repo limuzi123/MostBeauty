@@ -54,7 +54,6 @@ public class HaveThingsHaveItemAdapter extends BaseAdapter {
             convertView.setTag(holder);
         }
         else {
-
             holder= (ViewHolder) convertView.getTag();
         }
         //holder.productName.setText(bean.getData().getActivities().get(position).getProduct().getName());
