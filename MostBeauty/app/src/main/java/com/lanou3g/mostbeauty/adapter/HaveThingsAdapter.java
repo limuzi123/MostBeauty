@@ -9,6 +9,7 @@ import com.lanou3g.mostbeauty.fragment.haveThingsFragments.HaveFragment;
 import com.lanou3g.mostbeauty.fragment.haveThingsFragments.ReuseFragment;
 
 /**
+ * title和viewpager
  * Created by dllo on 16/8/30.
  */
 public class HaveThingsAdapter extends FragmentPagerAdapter {
