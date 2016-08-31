@@ -13,6 +13,8 @@ import com.bumptech.glide.Priority;
 import com.lanou3g.mostbeauty.Bean.HaveThingsHaveBean;
 import com.lanou3g.mostbeauty.R;
 
+import jp.wasabeef.glide.transformations.CropCircleTransformation;
+
 /**
  * Created by dllo on 16/8/31.
  */
@@ -78,6 +80,6 @@ public class HaveThingsHaveItemAdapter extends BaseAdapter {
         }
     }
     public void initGlide(ImageView imageView,String url){
-        Glide.with(context).load(url).priority(Priority.HIGH).thumbnail(0.1f).into(imageView);
+        Glide.with(context).load(url).priority(Priority.HIGH).thumbnail(0.1f).bitmapTransform(new CropCircleTransformation(context)).into(imageView);
     }
 }

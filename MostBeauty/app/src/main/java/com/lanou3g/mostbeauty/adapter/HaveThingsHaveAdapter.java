@@ -10,6 +10,7 @@ import android.widget.ListView;
 
 import com.lanou3g.mostbeauty.Bean.HaveThingsHaveBean;
 import com.lanou3g.mostbeauty.R;
+import com.lanou3g.mostbeauty.activity.API;
 import com.lanou3g.mostbeauty.gson.NetTool;
 import com.lanou3g.mostbeauty.gson.onHttpCallBack;
 
@@ -73,9 +74,9 @@ public class HaveThingsHaveAdapter extends BaseAdapter {
     }
 
     private void getNetData(String id, final ViewHolder holder) {
-        String url = "http://design.zuimeia.com/api/v1/activities/daily/?timestamp=" +
+        String url = API.Have_Things_Have_Adapter +
                 id +
-                "&device_id=000000000000000&platform=android&lang=zh&appVersion=1.1.7_1&appVersionCode=10171&systemVersion=19&countryCode=CN&user_id=0&token=&package_name=com.zuiapps.zuiworld";
+                API.Have_Things_Have_Adapter_End;
         NetTool.getInstance().startRequest(url, HaveThingsHaveBean.class
                 , new onHttpCallBack<HaveThingsHaveBean>() {
                     @Override
