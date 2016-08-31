@@ -83,6 +83,7 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+<<<<<<< HEAD
   <component name="masterDetails">
     <states>
       <state key="ScopeChooserConfigurable.UI">
@@ -98,4 +99,6 @@
       </state>
     </states>
   </component>
+=======
+>>>>>>> db1da84a413de126c2f7738e9d08d7f05697c1bb
 </project>

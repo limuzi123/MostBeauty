@@ -5,8 +5,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/seventy"
     android:background="@color/color_huabao_title"
-    android:paddingTop="@dimen/thirty_two">
+    >
 
     <!-- Recents View -->
     <com.wirelesspienetwork.overview.views.Overview

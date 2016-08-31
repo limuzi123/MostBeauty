@@ -11,5 +11,4 @@
     <string name="text_view_birthday">生日</string>
     <string name="binding_mailbox">绑定邮箱</string>
     <string name="mailbox">邮箱</string>
-    <string name="choose_brithday">请选择生日</string>
 </resources>

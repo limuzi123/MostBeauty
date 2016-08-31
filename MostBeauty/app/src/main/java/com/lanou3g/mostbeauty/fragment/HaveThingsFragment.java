@@ -5,7 +5,6 @@ import android.support.v4.view.ViewPager;
 
 import com.lanou3g.mostbeauty.Bean.HaveThingsReuseTitleBean;
 import com.lanou3g.mostbeauty.R;
-import com.lanou3g.mostbeauty.activity.API;
 import com.lanou3g.mostbeauty.adapter.HaveThingsAdapter;
 import com.lanou3g.mostbeauty.base.BaseFragment;
 import com.lanou3g.mostbeauty.gson.NetTool;
@@ -30,7 +29,7 @@ public class HaveThingsFragment extends BaseFragment {
     }
     @Override
     protected void initData() {
-        NetTool.getInstance().startRequest(API.Have_Fragment_Title
+        NetTool.getInstance().startRequest("http://design.zuimeia.com/api/v1/product/categories/?device_id=000000000000000&platform=android&lang=zh&appVersion=1.1.7_1&appVersionCode=10171&systemVersion=19&countryCode=CN&user_id=0&token=&package_name=com.zuiapps.zuiworld"
                 , HaveThingsReuseTitleBean.class
                 , new onHttpCallBack<HaveThingsReuseTitleBean>() {
                     @Override
