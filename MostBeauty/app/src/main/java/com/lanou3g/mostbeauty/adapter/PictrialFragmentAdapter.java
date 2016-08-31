@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.lanou3g.mostbeauty.Bean.PictorialBean;
 import com.lanou3g.mostbeauty.R;
+import com.lanou3g.mostbeauty.activity.PictorialActivity;
 import com.wirelesspienetwork.overview.model.OverviewAdapter;
 import com.wirelesspienetwork.overview.model.ViewHolder;
 
@@ -51,9 +52,9 @@ public class PictrialFragmentAdapter extends OverviewAdapter<PictrialFragmentAda
         netViewHolder.itemView.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(context,NewActivity.class);
-//                Log.d("OverviewActivity", "ccccccccc"+intent);
-//                context.startActivity(intent);
+                Intent intent = new Intent(context,PictorialActivity.class);
+                Log.d("OverviewActivity", "ccccccccc"+intent);
+                context.startActivity(intent);
             }
         });
         netViewHolder.tvName.setText(bean.getData().getArticles().get(bean.getData().getArticles().size()-netViewHolder.getPosition()-1).getSub_title());

@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.MaterialActivity"/>
+        <activity android:name=".activity.PictorialActivity"/>
     </application>
 
 </manifest>
