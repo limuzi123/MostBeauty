@@ -61,6 +61,11 @@ public class PictrialFragmentAdapter extends OverviewAdapter<PictrialFragmentAda
         Glide.with(context).load(bean.getData().getArticles()
                 .get(bean.getData().getArticles().size()-netViewHolder.getPosition()-1).getImage_url())
                 .into(netViewHolder.imageView);
+        netViewHolder.textView.setText(bean.getData().getArticles().get(bean.getData().getArticles().size() - netViewHolder.getPosition() - 1).getAuthor().getSign());
+        Glide.with(context).load(bean.getData().getArticles()
+                .get(bean.getData().getArticles().size() - netViewHolder.getPosition() - 1)
+                .getAuthor().getAvatar_url()).into(netViewHolder.imgName);
+
 
     }
 
@@ -70,13 +75,15 @@ public class PictrialFragmentAdapter extends OverviewAdapter<PictrialFragmentAda
     }
 
     class NetViewHolder extends ViewHolder {
-        private TextView tvTitle,tvName;
-        private ImageView imageView;
+        private TextView tvTitle, tvName, textView;
+        private ImageView imageView, imgName;
         public NetViewHolder(View view) {
             super(view);
             tvName = (TextView) view.findViewById(R.id.tv_view);
             tvTitle = (TextView) view.findViewById(R.id.tv_title);
             imageView = (ImageView) view.findViewById(R.id.image);
+            textView = (TextView) view.findViewById(R.id.tv_name);
+            imgName = (ImageView) view.findViewById(R.id.img_name);
         }
     }
 
